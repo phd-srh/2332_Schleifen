@@ -5,10 +5,9 @@ public class Main {
             hier in "main" stehen
         */
 
-        int x = 1;              // Startwert
-        while ( x <= 10 ) {     // Endwert (Wiederholungsbedingung)
-            System.out.println("Hallo, wir sind bei " + x);
-            x++;                // Fortschaltung (Aktualisierung)
+        //    Startwert   Endwert   Fortschaltung
+        for ( int i = 1 ; i <= 10 ; i++ ) {
+            System.out.println("Hallo, wir sind bei " + i);
         }
     }
 }
