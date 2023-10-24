@@ -5,10 +5,10 @@ public class Main {
             hier in "main" stehen
         */
 
-        int x = 1;
-        while ( x <= 10 ) {
+        int x = 1;              // Startwert
+        while ( x <= 10 ) {     // Endwert (Wiederholungsbedingung)
             System.out.println("Hallo, wir sind bei " + x);
-            x++; // Faulenzer: x++ => x = x + 1
+            x++;                // Fortschaltung (Aktualisierung)
         }
     }
 }
